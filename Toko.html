@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+   		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+		<title>Toko</title>
+	</head>
+	<body style="background-color: #262626;">
+		<header class="header1">
+        	<div class="inner">
+            	<div class="logo">
+                	<div>
+                    <!-- The below line can be an image or a h1, either will work -->
+                    <h1>UD. Novary Sport</h1>
+                	</div>
+            	</div>
+
+            	<nav>
+                <!-- Each of the below lines look complicated. There is a reason for this markup though!
+                <li> tag will be the container for the table.
+                <span> will be the part that centers the content inside it
+                <a> is the actual clickable part -->
+                <li><span><a href="Login.html" class="button">Logout</a></span></li>
+                <!-- On the line above, remove the class="button" if you don't want the final
+                element to be a button -->
+            	</nav>
+        	</div>
+    	</header>
+		<div>
+			<form action="/action_page.php">
+				<label for="tanggal">Tanggal:</label>
+  				<input type="date" id="tanggal" name="tanggal">
+				<label for="pemasukan">Pemasukan:</label><br>
+				<input type="number" id="pemasukan" name="pemasukan" value=""><br>
+				<label for="lname">Last name:</label><br>
+				<input type="text" id="lname" name="lname" value="Doe"><br><br>
+				<input type="submit" value="Submit">
+			  </form> 
+		</div>
+	</body>
+</html>

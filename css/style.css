@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    border-bottom: solid 1px rgb(43, 43, 43);
+    font-family: 'Poppins';
+}
+
+header .inner{
+    width: 1300px; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 100%;
+    display: block;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+header .logo div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    height: 50px;
+    margin-top: 5px; /* Optical alignment of the logo */
+}
+header nav{
+    float: right;
+    height: 100%;
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+header nav li:last-of-type{
+    margin-right: 0;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav a{
+    color: #101010;
+}
+
+header nav .button{
+    background-color: #1ab26b; /* This HEX is the color of the button */
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+}
+.header1{
+	background-color: #535353;
+}
+.login_form{
+    font-family: 'Poppins';
+    color: whitesmoke;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #3e3e3e;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(255,255,255,.3);	
+
+}
+.login_form label{
+    font-size: 16px;
+    color: #fff;
+
+}
+.login_form input{
+	width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #fff;
+    font-size: 20px;
+}
+.login_submit {
+    padding: 0px 0px;
+    background-color: #2979ff;
+    color: #3e3e3e;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.login_submit:link, .login_submit:visited {
+    background-color: #002569;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .login_submit:hover, .login_submit:active {
+    background-color: rgb(21, 3, 184);
+  }
+
+
+.table1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    font-size: 16pt;
+    border: 2px solid #464646;
+    width: 50%;
+    margin-top: 20px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+.table1 tr th {
+    background: #0059ff;
+    color: #fff;
+
+    
+}
+.text_tabel{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-top: 10%;
+}
+
+.form_data{
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    border-radius: 6px;
+    background-color: rgb(87, 87, 87);
+    box-shadow: 0 0 7px 0px rgba(136, 146, 146, 0.2);
+    padding: 30px;
+}
+
+.form_data .form{
+    width: 100%;
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+input{
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #8888;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+
+.table2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    font-size: 16pt;
+    border: 2px solid #464646;
+    width: 50%;
+    margin-top: 20px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+.table2 tr th {
+    background: #0059ff;
+    color: #fff;
+
+    
+}
+.text_tabel{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-top: 10%;
+}
+
+.box_total h1{
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+}
